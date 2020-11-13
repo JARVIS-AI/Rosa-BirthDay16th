@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosa BirthDay 16th</title>
+
+    <link rel="stylesheet" href="./lib/reset.min.css">
+    <link rel="stylesheet" href="./lib/style.css">
+    
+</head>
+
+<body>
+    <button class="bubbly-button" id="presentbutton">Receive your PRESENT ;)</button>
+
+    <div class="rosacake">
+        <div class="cake">
+            <div class="velas">
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+                <div class="fuego"></div>
+            </div>
+            <div class="cobertura"></div>
+            <div class="bizcocho"></div>
+            <h1>happy birthday!</h1>
+            <p>ROSA (Sayeh) My Dear SIS</p>
+        </div>
+    </div>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="./lib/script.js"></script>
+    <script>
+        $( "#presentbutton" ).click(function() {
+            $( "div.rosacake" ).delay(2300).fadeIn(300);
+        });
+        $( "#presentbutton" ).click(function() {
+            $( "#presentbutton" ).delay(900).fadeOut(900);
+        });
+        </script>
+</body>
+</html>
